@@ -34,7 +34,7 @@ export default function DashboardLayout() {
             {/* HOME */}
             <li
               className="cursor-pointer hover:text-blue-600"
-              onClick={() => navigate("dashboard/home")}
+              onClick={() => navigate("/dashboard/home")}
             >
               🏠 Home
             </li>
@@ -42,7 +42,7 @@ export default function DashboardLayout() {
             {/* CREATE CATEGORY */}
             <li
               className="cursor-pointer hover:text-blue-600"
-              onClick={() => navigate("dashboard/create-category")}
+              onClick={() => navigate("/dashboard/create-category")}
             >
               📁 Create Category
             </li>
@@ -50,7 +50,7 @@ export default function DashboardLayout() {
             {/* YOUR CATEGORIES */}
             <li
               className="cursor-pointer hover:text-blue-600"
-              onClick={() => navigate("dashboard/your-categories")}
+              onClick={() => navigate("/dashboard/your-categories")}
             >
               📂 Your Categories
             </li>
@@ -94,7 +94,7 @@ export default function DashboardLayout() {
                     key={c.name}
                     className="cursor-pointer text-sm hover:text-blue-600"
                     onClick={() =>
-                      navigate(`dashboard/read-content/${c.name}`)
+                      navigate(`/dashboard/read-content/${c.name}`)
                     }
                   >
                     ➤ {c.name}
