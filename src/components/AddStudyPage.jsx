@@ -55,7 +55,7 @@ export default function AddStudyPage() {
     try {
       addStudyPageToCategory(page.category, pageObj);
       // after save, navigate to the read-content (category-wise) page
-      navigate(`/dashboard/read-content/${encodeURIComponent(page.category)}`);
+      navigate(`dashboard/read-content/${encodeURIComponent(page.category)}`);
     } catch (err) {
       console.error(err);
       alert("Failed to save page. Make sure you're logged in.");

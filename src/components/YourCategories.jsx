@@ -64,7 +64,7 @@ export default function YourCategories() {
             <div className="mt-4 flex justify-between">
               <button
                 className="text-blue-600"
-                  onClick={() => navigate(`/dashboard/category/${cat.name}`)}
+                  onClick={() => navigate(`dashboard/category/${cat.name}`)}
               >
                 Open
               </button>

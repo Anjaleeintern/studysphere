@@ -1,72 +1,3 @@
-// // src/pages/ReadContent.jsx
-// import React, { useEffect, useState } from "react";
-// import { useParams, useNavigate } from "react-router-dom";
-// import { getPagesByCategory } from "../utils/storage";
-// import StudyPageActions from "../components/StudyPageActions";
-
-// export default function ReadContent() {
-//   const { categoryName } = useParams();
-//   const navigate = useNavigate();
-//   const [pages, setPages] = useState([]);
-
-//   useEffect(() => {
-//     if (!categoryName) {
-//       setPages([]);
-//       return;
-//     }
-//     const decoded = decodeURIComponent(categoryName);
-//     const p = getPagesByCategory(decoded);
-//     setPages(p || []);
-//   }, [categoryName]);
-
-//   return (
-//     <div className="p-6 max-w-3xl mx-auto">
-//       <div className="flex justify-between items-center mb-4">
-//         <h1 className="text-xl font-bold">Study Notes — {decodeURIComponent(categoryName)}</h1>
-//       </div>
-
-
-//       {pages.length === 0 ? (
-//         <p className="text-gray-600">No study pages saved yet for this category.</p>
-//       ) : (
-//         pages
-//           .slice()
-//           .sort((a, b) => new Date(b.date) - new Date(a.date)) // newest first
-//           .map((p) => (
-//             <article key={p.id} className="p-4 border rounded-xl mb-4 bg-white shadow-sm">
-//               <h2 className="text-lg font-semibold">{p.topic}</h2>
-//               <p className="text-sm text-gray-500">📅 {p.date}</p>
-
-//               {p.video && (
-//                 <a
-//                   href={p.video}
-//                   target="_blank"
-//                   rel="noopener noreferrer"
-//                   className="text-blue-600 underline block mt-2"
-//                 >
-//                   ▶ Watch Video
-//                 </a>
-//               )}
-
-//               {p.pdf && (
-//                 <a
-//                   href={p.pdf}
-//                   target="_blank"
-//                   rel="noopener noreferrer"
-//                   className="text-green-600 underline block mt-2"
-//                 >
-//                   📄 Open PDF
-//                 </a>
-//               )}
-
-//               <p className="whitespace-pre-line mt-3 text-gray-800">{p.notes}</p>
-//             </article>
-//           ))
-//       )}
-//     </div>
-//   );
-// }
-
 // src/pages/ReadContent.jsx
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
@@ -107,7 +38,7 @@ export default function ReadContent() {
         <button
           className="bg-blue-600 text-white px-4 py-2 rounded-lg"
           onClick={() =>
-            navigate(`/dashboard/category/${decodeURIComponent(categoryName)}/add`)
+            navigate(`dashboard/category/${decodeURIComponent(categoryName)}/add`)
           }
         >
           ➕ Add New Page

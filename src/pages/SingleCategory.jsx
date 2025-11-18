@@ -30,7 +30,7 @@ export default function SingleCategory() {
 
         <button
           className="bg-blue-600 text-white px-4 py-2 rounded-xl"
-          onClick={() => navigate(`/dashboard/category/${name}/add`)}
+          onClick={() => navigate(`dashboard/category/${name}/add`)}
         >
           Add Study Page
         </button>
