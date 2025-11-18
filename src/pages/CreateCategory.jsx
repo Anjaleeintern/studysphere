@@ -50,7 +50,7 @@ export default function CreateCategory() {
         </button>
 
         <button
-          onClick={() => navigate("/your-categories")}
+          onClick={() => navigate("/dashboard/your-categories")}
           className="mt-3 w-full text-gray-600"
         >
           Cancel
