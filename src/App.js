@@ -198,7 +198,7 @@
 
 
 
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from "react-router-dom";
 
 /* Layout */
 import DashboardLayout from "./components/DashboardLayout";
@@ -222,7 +222,7 @@ import LandingPage from "./pages/LandingPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
 
         {/* ---------- Public Routes ---------- */}
@@ -253,6 +253,6 @@ export default function App() {
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
