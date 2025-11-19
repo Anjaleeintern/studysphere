@@ -13,7 +13,7 @@ export default function Signup() {
     if (!form.name || !form.email || !form.password) return alert("All fields required");
     const ok = signup(form.name.trim(), form.email.trim(), form.password);
     if (!ok) return alert("Email already registered");
-    navigate("/home");
+    navigate("/dashboard/home");
   };
 
   return (

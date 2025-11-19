@@ -11,7 +11,7 @@
 //     <div className="p-6">
 //       <h1 className="text-2xl font-bold">📄 {category} — All Study Pages</h1>
 
-//       {/* {pages.map((page) => (
+//       {pages.map((page) => (
 //         <div key={page.id} className="border p-4 rounded-xl my-4">
 //           <h2 className="text-xl font-semibold">{page.title}</h2>
 //           <p className="text-sm text-gray-500">{page.date}</p>
@@ -55,7 +55,7 @@
 //             </button>
 //           </div>
 //         </div>
-//       ))} */}
+//       ))}
 //     </div>
 //   );
 // }

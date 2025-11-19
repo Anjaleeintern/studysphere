@@ -16,8 +16,8 @@ export default function Login() {
     if (!ok) return alert("Invalid email or password");
     navigate("/dashboard");
   };
-
-  return (
+ 
+return (
     <div className="min-h-screen flex items-center justify-center bg-gray-600 p-6">
       <div className="bg-white p-8 rounded-2xl shadow w-full max-w-md">
         <h2 className="text-2xl font-bold mb-5 text-center">Sign In</h2>

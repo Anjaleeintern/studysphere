@@ -33,7 +33,7 @@ export default function App() {
 
         {/* ---------- Protected Dashboard Routes ---------- */}
         <Route
-          path="dashboard"
+          path="/dashboard"
           element={
             <ProtectedRoute>
               <DashboardLayout />

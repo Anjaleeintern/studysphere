@@ -2,7 +2,7 @@
   "name": "centralized-learning-organizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anjaleeintern.github.io/studysphere-react",
+  "homepage": "https://Anjaleeintern.github.io/studysphere",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
