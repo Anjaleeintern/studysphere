@@ -1,10 +1,8 @@
-
-
 // src/pages/LandingPage.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import landing_image from "../images/landingpageimage"
+import landing_image from "../images/landingpageimage.webp"
 
 export default function LandingPage() {
   const navigate = useNavigate();

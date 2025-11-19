@@ -27,8 +27,8 @@ export default function CreateCategory() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-600">
-      <div className="bg-white p-8 rounded-xl w-96 shadow-lg">
+    <div className="min-h-screen flex justify-center items-center bg-gray-400">
+      <div className="bg-gray-300 p-8 rounded-xl w-96 shadow-lg">
 
         <h2 className="text-2xl font-bold mb-5 text-center">
           Create Category
@@ -44,14 +44,14 @@ export default function CreateCategory() {
 
         <button
           onClick={saveCategory}
-          className="w-full bg-blue-600 text-white p-3 rounded-xl"
+          className="w-full bg-blue-900 font-bold text-white p-3 rounded-xl"
         >
           Save Category
         </button>
 
         <button
           onClick={() => navigate("/dashboard/your-categories")}
-          className="mt-3 w-full text-gray-600"
+          className="mt-3 w-full text-gray-900 text-lg "
         >
           Cancel
         </button>

@@ -49,9 +49,9 @@ export default function SingleCategory() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 bg-gray-200">
       {/* HEADING */}
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 ">
         <h1 className="text-3xl font-bold">{category.name}</h1>
         <button
           className="bg-blue-600 text-white px-4 py-2 rounded-xl"
@@ -66,16 +66,16 @@ export default function SingleCategory() {
         <p className="text-gray-500">No study pages added yet.</p>
       )}
 
-      <div className="space-y-6">
+      <div className="space-y-6 0">
         {category.pages?.map((page) => (
           <div
             key={page.id}
-            className="border p-5 rounded-xl shadow bg-white relative"
+            className="border p-5 rounded-xl shadow bg-gray-100 relative"
           >
             {/* Page Header */}
             <div className="flex justify-between items-start mb-3">
               <div>
-                <h2 className="text-xl font-semibold">{page.topic}</h2>
+                <h2 className="text-xl font-bold">{page.topic}</h2>
                 <p className="text-gray-500 text-sm">📅 {page.date}</p>
               </div>
 

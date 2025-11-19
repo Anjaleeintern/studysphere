@@ -12,8 +12,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-full bg-white shadow px-6 py-4 flex justify-between items-center">
-      <Link to="/dashboard/home" className="text-2xl font-bold text-blue-600">
+    <div className="w-full bg-gray-300 shadow px-6 py-4 flex justify-between items-center">
+      <Link to="/dashboard/home" className="text-2xl font-bold text-blue-900">
         📚 StudySphere
       </Link>
 

@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// import AddResourceModal from "../components/AddResourceForm";
-// import AddResource from "../components/AddResourceForm";
 import AddStudyPage from "../components/AddStudyPage";
 
 export default function CategoryPage() {
@@ -22,7 +20,7 @@ export default function CategoryPage() {
   }, []);
 
   return (
-    <div className="p-6">
+    <div className="p-6 bg-gray-200">
 
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold">{name} Resources ✨</h1>

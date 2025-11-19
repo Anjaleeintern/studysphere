@@ -63,7 +63,7 @@ export default function AddStudyPage() {
   };
 
   return (
-    <div className="max-w-2xl bg-white p-8 rounded-xl shadow-lg mx-auto mt-8">
+    <div className="max-w-2xl bg-gray-400 p-8 rounded-xl shadow-lg mx-auto mt-8">
       <h1 className="text-2xl font-bold mb-6">Add Study Page</h1>
 
       <select
@@ -115,7 +115,7 @@ export default function AddStudyPage() {
 
       <button
         onClick={savePage}
-        className="bg-blue-600 text-white w-full py-3 rounded-xl mt-5"
+        className="bg-blue-900 font-bold text-white w-full py-3 rounded-xl mt-5"
       >
         Save Study Page
       </button>
