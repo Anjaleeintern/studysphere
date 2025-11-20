@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/studysphere/static/css/main.82a241a4.css",
-    "main.js": "/studysphere/static/js/main.df7493e7.js",
+    "main.css": "/studysphere/static/css/main.d6f90c75.css",
+    "main.js": "/studysphere/static/js/main.d0e6cfe5.js",
     "static/js/453.89530207.chunk.js": "/studysphere/static/js/453.89530207.chunk.js",
-    "static/media/landingpageimage": "/studysphere/static/media/landingpageimage.8c6bd00be8a80afa9393",
+    "static/media/landingpageimage.webp": "/studysphere/static/media/landingpageimage.8c6bd00be8a80afa9393.webp",
     "index.html": "/studysphere/index.html",
-    "main.82a241a4.css.map": "/studysphere/static/css/main.82a241a4.css.map",
-    "main.df7493e7.js.map": "/studysphere/static/js/main.df7493e7.js.map",
+    "main.d6f90c75.css.map": "/studysphere/static/css/main.d6f90c75.css.map",
+    "main.d0e6cfe5.js.map": "/studysphere/static/js/main.d0e6cfe5.js.map",
     "453.89530207.chunk.js.map": "/studysphere/static/js/453.89530207.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a241a4.css",
-    "static/js/main.df7493e7.js"
+    "static/css/main.d6f90c75.css",
+    "static/js/main.d0e6cfe5.js"
   ]
 }
