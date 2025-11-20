@@ -63,7 +63,7 @@ export default function AddStudyPage() {
   };
 
   return (
-    <div className="max-w-2xl bg-gray-400 p-8 rounded-xl shadow-lg mx-auto mt-8">
+    <div className="max-w-2xl bg-gray-400 p-8 rounded-xl shadow-lg w-full md:w-2/3 lg:w-1/2  mx-auto mt-8">
       <h1 className="text-2xl font-bold mb-6">Add Study Page</h1>
 
       <select
